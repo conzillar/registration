@@ -1,0 +1,52 @@
+.container{
+    width:100%;
+    height:100vh;
+    display:flex;
+}
+.column1{
+    width:60%;
+    height:90%;
+    
+    /* align-items: center; */
+    /* display:flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    padding: 11rem 0 0 5rem;
+}
+.column2{
+    width:60%;
+    height:90%;
+    /* align-items: center; */
+    display:flex;
+    padding: 5rem 0 0 0;
+}
+img{
+    width:500px;
+    height:500px;
+}
+h3{
+    font-size:3rem;
+    margin-top:10%;
+    line-height: 0.3rem;
+
+}
+h2{
+    font-size:3rem ;
+    color:orangered;
+}
+button{
+    border:1px solid orangered;
+    width:50%;
+    height: 50px;
+    border-radius: 50px;
+    background:orangered;
+    color:white;
+    /* this is for transition */
+    transition: 1.5s ease-in;
+
+}
+button:hover{
+    background:orange;
+    cursor: pointer;
+    border:orange;
+}

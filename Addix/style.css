@@ -1,0 +1,75 @@
+.container{
+    width:100%;
+    height: 100vh;
+    background-color:#6663e6;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.add{
+    width: 28%;
+    height: 350px;
+     border-radius: 5px;
+    background-color: #fff;
+}
+.odd{
+    margin-left:12%;
+    margin-top: 10%;
+}
+h1{
+    line-height: 1%;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #555252;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-control{
+    width: 300px;
+    height: 35px;
+    margin-left: 7%;
+    margin-top: 1rem;
+}
+.content-control::placeholder{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    width: 310px;
+    height: 35px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7%;
+    margin-top: 1rem;
+    border-radius: 3px;
+    background-color: #6663e6;
+    border: 1px solid  #6663e6;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #7675d6;
+    border: 1px solid  #6663e6;
+}
+.edn{
+    display: flex;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 1%;
+    color: #6663e6;
+}
+h4{
+    margin-left: 15%;
+    color: #555252;
+    font-family: Arial, Helvetica, sans-serif;
+}
